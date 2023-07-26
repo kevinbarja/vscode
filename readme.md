@@ -39,3 +39,5 @@ https://github.com/microsoft/MSBuildSdks/tree/main/src/Traversal
 # References
 - [Install .NET](https://www.youtube.com/watch?v=RQLzp2Z8-BE)
 - [Playlist](https://youtube.com/playlist?list=PLm43N15wzkBOKnYigHPpxjYNBHujXPOj6)
+- [CLI Tools](https://learn.microsoft.com/en-us/dotnet/core/tools/local-tools-how-to-use) 
+https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools
