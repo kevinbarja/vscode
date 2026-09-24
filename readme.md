@@ -30,6 +30,33 @@
 | ----------- | ----------- |
 | ``git clean -xdf``      | Remove all files unversioned      |
 
+# Claude Code commands
+| Command      | Description |
+| ----------- | ----------- |
+| ``claude``      | Start an interactive session in the current folder      |
+| ``claude "query"``      | Start a session with an initial prompt      |
+| ``claude -p "query"``      | Run a single query and exit (print mode)      |
+| ``claude -c``      | Continue the most recent conversation      |
+| ``claude -r``      | Resume a previous conversation (picker)      |
+| ``claude update``      | Update Claude Code to the latest version      |
+| ``claude mcp``      | Configure MCP servers      |
+| ``/help``      | Show help and available commands      |
+| ``/init``      | Create a CLAUDE.md file with project documentation      |
+| ``/clear``      | Clear the conversation history      |
+| ``/compact``      | Summarize the conversation to free up context      |
+| ``/model``      | Change the model      |
+| ``/config``      | Open settings      |
+| ``/permissions``      | View or change tool permissions      |
+| ``/memory``      | Edit CLAUDE.md memory files      |
+| ``/review``      | Review a pull request      |
+| ``/cost``      | Show token usage for the session      |
+| ``@file``      | Reference a file in your prompt      |
+| ``!command``      | Run a shell command directly (bash mode)      |
+| ``shift + tab``      | Switch permission mode (e.g. auto-accept, plan)      |
+| ``esc``      | Stop Claude while it is working      |
+| ``esc esc``      | Go back to a previous message      |
+| ``ctrl + c``      | Cancel input / exit      |
+
 # Libraries
 https://github.com/microsoft/MSBuildSdks/tree/main/src/Traversal
 
